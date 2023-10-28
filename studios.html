@@ -103,6 +103,7 @@
 
     <footer class="footer">
       <div class="footer__links">
+
         <a class="footer__logo" href="#" alt="Место"></a>
         <div class="footer__list-container">
           <ul class="footer__list">
@@ -120,7 +121,7 @@
       </div>
 
       <p class="footer__text">Sign up for the latest news about our studio, services and changes</p>
-      <button class="footer__button">SIGN UP</button>
+      <button class="footer__button" type="button">SIGN UP</button>
       <!-- ТУТ ДОЛЖЕН БЫТЬ ПОПАП -->
 
       <p class="footer__text">Follow us on:</p>
@@ -131,10 +132,52 @@
         <img src="./images/youtube.png" alt="" class="footer__media-link">
       </div>
       <p class="footer__copyright">©2023 New Way Studios</p>
+
     </footer>
 
 
-    <!-- <script type="module" src="./src/index.js"></script> -->
+    <div class="popup popup_type_signup">
+      <div class="popup__container">
+        <h3 class="popup__title">Sign up to New Way Studios</h3>
+
+        <form action="#" class="popup__form popup__form_signup" name="popup__form">
+          <div class="popup__field">
+            <div class="popup__field-text">
+              <input class="popup__input popup__input_type_name" type="email" value="" placeholder="Email" minlength="2"
+                maxlength="40" required>
+              <span class="popup__form-input-error">Вы пропустили это поле.</span>
+            </div>
+
+            <div class="popup__field-text">
+              <input class="popup__input popup__input_type_subtitle" type="text" value="" placeholder="Your country"
+                minlength="2" maxlength="200" required>
+              <span class="popup__form-input-error">Вы пропустили это поле.</span>
+            </div>
+          </div>
+          <button class="popup__submit popup__submit_inactive" type='submit'>SIGN UP</button>
+        </form>
+
+        <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+      </div>
+    </div>
+
+    <div class="warning warning--active">
+      <div class="warning__text">We use Cookies</div>
+      <button class="warning__apply" type="button">Great!</button>
+      <a class="warning__read" href="https://ru.wikipedia.org/wiki/Cookie" target="_blank">What are cookies?</a>
+    </div>
+
+
+    <div class="popup_type_thanks">
+      <div class="popup__container">
+        <h2 class="popup__title">Thank you.<br>
+          We will contact you shortly</h2>
+        <button class="popup_type_thanks-button" type="button" aria-label="Закрыть">Got it!</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./src/Cookies.js"></script>
+    <script type="module" src="./src/Test.js"></script>
 </body>
 
 </html>
