@@ -1,0 +1,20 @@
+.service__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .service__container {
+    grid-template-columns: repeat(2, 300px);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service__container {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+}

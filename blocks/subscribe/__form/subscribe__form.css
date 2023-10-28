@@ -1,0 +1,8 @@
+.subscribe__form {
+    background-color: rgb(151, 20, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 23px;
+    width: 50%;
+}

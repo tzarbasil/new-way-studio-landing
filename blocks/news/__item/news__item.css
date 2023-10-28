@@ -1,0 +1,11 @@
+.news__item {
+    max-width: 380px;
+    /* background-color: rgb(0, 0, 0); */
+    /* box-shadow: 0 0 30px rgb(101, 101, 101); */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .news__item {
+      margin: 0 auto;
+    }
+  }

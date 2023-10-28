@@ -1,0 +1,8 @@
+.studio__subtitle-container {
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-top: 8px solid #820c33;
+    width: 100%;
+}

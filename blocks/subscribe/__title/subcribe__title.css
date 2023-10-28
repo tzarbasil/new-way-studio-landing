@@ -1,0 +1,8 @@
+.subscribe__title {
+    color: white;
+    font-weight: 500;
+    font-size: 33px;
+    margin: auto;
+    /* box-shadow: 0 0 10px white; */
+    text-shadow: 0 0 50px rgb(255, 255, 255);
+}

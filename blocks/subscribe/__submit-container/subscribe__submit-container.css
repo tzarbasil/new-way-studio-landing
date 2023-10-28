@@ -1,0 +1,7 @@
+.subscribe__submit-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+
+}

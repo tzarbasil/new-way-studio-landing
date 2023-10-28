@@ -1,0 +1,15 @@
+.header__nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    border-right: 1px solid #000;
+    padding-right: 29px;
+}
+
+.header__nav-link:hover {
+    color: rgb(222, 0, 30);
+    cursor: pointer;
+}
+
+.header__nav-link:last-child {
+    border: none;
+}

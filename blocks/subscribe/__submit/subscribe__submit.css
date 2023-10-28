@@ -1,0 +1,15 @@
+.subscribe__submit {
+    /* border: 1px solid rgb(222, 0, 30); */
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    width: 40%;
+}
+
+.subscribe__submit:hover {
+    color: white;
+    background-color: rgb(222, 0, 30);
+}

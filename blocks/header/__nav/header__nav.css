@@ -1,0 +1,6 @@
+.header__nav {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}

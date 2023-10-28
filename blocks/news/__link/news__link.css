@@ -1,0 +1,13 @@
+.news__link {
+    text-decoration: none;
+    color: rgb(212, 0, 57);
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.news__link:hover {
+    color: black;
+}

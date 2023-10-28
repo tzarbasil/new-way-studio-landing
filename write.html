@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Write to Us</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="normalize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="body">
+  <div id="app"></div>
+  <div class="page">
+    <header class="header">
+      <a class="header__logo" href="index.html" alt="Место"></a>
+      <ul class="header__nav">
+        <li class="header__nav-link">
+          <a href="about.html" class="header__link">About Us</a>
+        </li>
+        <li class="header__nav-link">
+          <a href="write.html" class="header__link">Write to us</a>
+        </li>
+        <li class="header__nav-link">
+          <a href="news.html" class="header__link">News</a>
+        </li>
+        <li class="header__nav-link">
+          <a href="studios.html" class="header__link">Studios</a>
+        </li>
+        <li class="header__nav-link">
+          <a href="services.html" class="header__link">Our services</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="content">
+      <section class="subscribe">
+        <h2 class="subscribe__title">Write to us to make your creative dreams come true </h2>
+        <form action="#" class="subscribe__form" name="popup__form">
+          <div class="subscribe__field">
+
+            <div class="subscribe__field-text">
+              <input id="place-name-input" type="text" class="subscribe__input" value="" placeholder="Enter your name"
+                minlength="2" maxlength="30" required>
+            </div>
+
+            <div class="subscribe__field-text">
+              <input id="place-url-input" type="text" class="subscribe__input" value=""
+                placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="subscribe__field-text">
+              <input id="place-name-input" type="text" class="subscribe__input" value="" placeholder="E-mail adress"
+                minlength="2" maxlength="30" required>
+            </div>
+
+            <div class="subscribe__field-text">
+              <input id="place-name-input" type="text" class="subscribe__input subscribe__input-message" value=""
+                placeholder="Add your message" minlength="2" maxlength="30" required>
+            </div>
+          </div>
+
+          <div class="subscribe__submit-container">
+            <button class="subscribe__submit" type='submit'>Send message</button>
+
+            <label class="container">I accept <a href="privacy.html" class="container__link">Privacy policy</a>
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </form>
+      </section>
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer__links">
+        <a class="footer__logo" href="#" alt="Место"></a>
+        <div class="footer__list-container">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="privacy.html" class="footer__link">Privacy Policy</a></li>
+            <li class="footer__list-item"><a href="cookie.html" class="footer__link">Cookie Policy</a></li>
+            <li class="footer__list-item"><a href="terms.html" class="footer__link">Terms of Use</a></li>
+          </ul>
+
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="about.html" class="footer__link">About Us</a></li>
+            <li class="footer__list-item"><a href="write.html" class="footer__link">Write to Us</a></li>
+            <li class="footer__list-item"><a href="news.html" class="footer__link">News</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="footer__text">Sign up for the latest news about our studio, services and changes</p>
+      <button class="footer__button">SIGN UP</button>
+      <!-- ТУТ ДОЛЖЕН БЫТЬ ПОПАП -->
+
+      <p class="footer__text">Follow us on:</p>
+      <div class="footer__media">
+        <img src="./images/Instagram-logo-icon.png" alt="" class="footer__media-link">
+        <img src="./images/facebook_circle_logo_icon_206764.png" alt="" class="footer__media-link">
+        <img src="./images/twitter.png" alt="" class="footer__media-link">
+        <img src="./images/youtube.png" alt="" class="footer__media-link">
+      </div>
+      <p class="footer__copyright">©2023 New Way Studios</p>
+    </footer>
+
+    <div class="popup popup_type_signup">
+      <div class="popup__container">
+        <h3 class="popup__title">Sign up to New Way Studios</h3>
+
+        <form action="#" class="popup__form popup__form_signup" name="popup__form">
+          <div class="popup__field">
+            <div class="popup__field-text">
+              <input class="popup__input popup__input_type_name" type="email" value="" placeholder="Email" minlength="2"
+                maxlength="40" required>
+              <span class="popup__form-input-error">Вы пропустили это поле.</span>
+            </div>
+
+            <div class="popup__field-text">
+              <input class="popup__input popup__input_type_subtitle" type="text" value="" placeholder="Your country"
+                minlength="2" maxlength="200" required>
+              <span class="popup__form-input-error">Вы пропустили это поле.</span>
+            </div>
+          </div>
+          <button class="popup__submit popup__submit_inactive" type='submit'>SIGN UP</button>
+        </form>
+
+        <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
+      </div>
+    </div>
+
+    <div class="popup_type_thanks">
+      <div class="popup__container">
+        <h2 class="popup__title">Thank you.<br>
+          We will contact you shortly</h2>
+        <button class="popup_type_thanks-button" type="button" aria-label="Закрыть">Got it!</button>
+      </div>
+    </div>
+
+
+    <script type="module" src="./src/Test.js"></script>
+</body>
+
+</html>

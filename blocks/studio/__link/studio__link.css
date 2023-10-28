@@ -1,0 +1,16 @@
+.studio__link {
+    text-decoration: none;
+    color: rgb(212, 0, 57);
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+.studio__link:hover {
+    color: black;
+}

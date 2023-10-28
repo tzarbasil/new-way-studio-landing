@@ -1,0 +1,10 @@
+.about {
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url(../../images/0605_sound-city1.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: 100%;
+    color: white;
+    
+}

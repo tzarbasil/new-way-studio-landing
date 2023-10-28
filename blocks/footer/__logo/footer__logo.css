@@ -1,0 +1,17 @@
+.footer__logo {
+    width: 400px;
+    height: 80px;
+    background-image: url('../../../images/studio.svg');
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__logo {
+        width: 104px;
+        height: 24px;
+        margin-left: 27px;
+        margin-bottom: 31px;
+    }
+}
